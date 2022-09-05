@@ -14,13 +14,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     width: 100%;
     padding: 1rem 5rem;
+    position: absolute;
     margin: auto;
     z-index: 1;
 }
-
 header .logo img {
     width: 60%;
 }
@@ -145,11 +144,13 @@ header .navbar .nav {
 }
 #mask .cart {
     width: 29%;
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    margin-top: 50px;
+    overflow: hidden;
 }
-#mask .cart:hover {
+/* #mask .cart:hover {
    scale: 1.1;
-}
+} */
 #mask .top{
     position: relative;
 }
@@ -159,6 +160,9 @@ header .navbar .nav {
     vertical-align: bottom;
     overflow: auto;
     border-radius: 5px 5px 0 0;
+}
+#mask .cart .top img:hover{
+    scale: 1.1;
 }
 #mask .top .ico{
     position: absolute;
@@ -170,6 +174,10 @@ header .navbar .nav {
 #mask .top .ico i{
     padding: 17px 12px;
     display: block;
+}
+#mask .top .ico i:hover{
+    scale: 1.1;
+    color: #2175a0;
 }
 
 #mask .cart .bottom {
@@ -199,6 +207,9 @@ header .navbar .nav {
     font-size: 15px;
     line-height: 33px;
     margin-left: 40px;
+}
+#mask .bottom .star i:hover{
+    color: goldenrod;
 }
 #mask .button a:hover{
   background-color: #2392c9c6;
