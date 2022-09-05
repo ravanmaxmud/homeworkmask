@@ -150,12 +150,26 @@ header .navbar .nav {
 #mask .cart:hover {
    scale: 1.1;
 }
+#mask .top{
+    position: relative;
+}
 #mask .cart .top img {
     width: 100%;
     height: auto;
     vertical-align: bottom;
     overflow: auto;
     border-radius: 5px 5px 0 0;
+}
+#mask .top .ico{
+    position: absolute;
+    top: 21px;
+    right: 17px;
+    background-color: white;
+    border-radius: 50px;
+}
+#mask .top .ico i{
+    padding: 17px 12px;
+    display: block;
 }
 
 #mask .cart .bottom {
@@ -277,6 +291,20 @@ header .navbar .nav {
 }
 #latest .cart:hover {
    scale: 1.1;
+}
+#latest .top{
+    position: relative;
+}
+#latest .top .ico{
+    position: absolute;
+    top: 21px;
+    right: 17px;
+    background-color: white;
+    border-radius: 50px;
+}
+#latest .top .ico i{
+    padding: 17px 12px;
+    display: block;
 }
 #latest .cart .top img {
     width: 100%;
