@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 1rem 5rem;
+    margin: auto;
+    z-index: 1;
+}
+
+header .logo img {
+    width: 60%;
+}
+
+header .navbar .button {
+    padding: 16px 35px;
+    border-radius: 50px;
+    letter-spacing: .5px;
+    color: #252525;
+    background: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    margin-left: 40px;
+}
+
+header .navbar .nav {
+    font-size: 17px;
+    line-height: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 13px;
+}
+
+#main {
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 724px;
+    position: relative;
+    padding: 2rem 11rem;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#main .text h1 {
+    position: relative;
+    margin: 0.67em 0;
+    color: #fff;
+    max-width: 548px;
+    font-size: 55px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+#main .text h1::before {
+    position: absolute;
+    content: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/FFP3-Mask.png);
+    left: -80px;
+    top: -93px;
+}
+
+#main .text p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#main .text a {
+    background-color: rgb(0, 107, 166);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+#main .text a:hover {
+    background-color: #2787B8;
+}
+
+#main .image {
+    width: 80%;
+}
+
+#main .image img {
+    width: 100%;
+}
+
+#mask {
+    padding: 12rem 5rem;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+}
+#mask .text{
+    text-align: center;
+}
+#mask .text h1{
+    font-size: 36px;
+    color: #222222;
+    line-height: 46px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+#mask .text h1::before{
+    position: absolute;
+    content: 'Masks';
+    width: 100%;
+    height: 100px;
+    top: -49px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.08;
+    font-size: 162px;
+}
+#mask .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#mask .cart {
+    width: 29%;
+    padding: 20px 0;
+}
+#mask .cart:hover {
+   scale: 1.1;
+}
+#mask .cart .top img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    overflow: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+#mask .cart .bottom {
+    background-color: #F2F2F2;
+    padding: 14px 26px;
+    border-radius: 0 0 5px 5px;
+}
+#mask .cart .bottom h3{
+    font-weight: 400;
+}
+#mask .cart .bottom .bot {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+#mask .button{
+    text-align: center;
+    margin-top: 40px;
+}
+#mask .button a{
+    background-color: #2175a0;
+    color: #fff;
+    padding: 16px 35px;
+    border-radius: 50px;
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    margin-left: 40px;
+}
+#mask .button a:hover{
+  background-color: #2392c9c6;
+}
+#premium{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 12rem;
+
+}
+#premium .text{
+    margin-top: 108px;
+    margin-left: 73px;
+}
+#premium .text h2{
+ font-size: 36px;
+ color: #fff;
+ line-height: 46px;
+ margin-bottom: 20px;
+ position: relative;
+ z-index: 1;
+}
+#premium .text h2::before{
+  content: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Quality.png);
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: -142px;
+  left: -30px;
+  z-index: -1;
+}
+#premium .text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    overflow-wrap: break-word;
+    line-height: 150%;
+    margin-right: 558px;
+}
+#premium .text a{
+    color: rgb(0, 107, 166);
+    background-color: rgb(255, 255, 255);
+    line-height: 1.33;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#latest {
+    padding: 12rem 5rem;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+}
+#latest .text{
+    text-align: center;
+}
+#latest .text h1{
+    font-size: 36px;
+    color: #222222;
+    line-height: 46px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+#latest .text h1::before{
+    position: absolute;
+    content: 'Latests';
+    width: 100%;
+    height: 100px;
+    top: -49px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.08;
+    font-size: 162px;
+}
+#latest .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#latest .cart {
+    width: 29%;
+    padding: 20px 0;
+}
+#latest .cart:hover {
+   scale: 1.1;
+}
+#latest .cart .top img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    overflow: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+#latest .cart .bottom {
+    background-color: #F2F2F2;
+    padding: 14px 26px;
+    border-radius: 0 0 5px 5px;
+}
+#latest .cart .bottom h3{
+    font-weight: 400;
+}
+#latest .cart .bottom .bot {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+#latest .button{
+    text-align: center;
+    margin-top: 40px;
+}
+#latest .button a{
+    background-color: #2175a0;
+    color: #fff;
+    padding: 16px 35px;
+    border-radius: 50px;
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    margin-left: 40px;
+}
+#latest .button a:hover{
+  background-color: #2392c9c6;
+}
+#sub{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100 );
+    background-position: center;
+    background-size: cover;
+    padding: 9rem 6rem;
+    background-repeat: no-repeat;
+}
+#sub .text{
+    text-align: center;
+}
+#sub .text h2{
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 46px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -35px ;
+    margin-bottom: 10px ;
+}
+#sub .text p{
+    max-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+#sub .text input{
+    border-radius: 35px;
+    height: 70px;
+    font-size: 15px;
+    border: 0;
+    width: 40%;
+    padding: 0 20px;
+    font-weight: 400;
+    outline: 0;
+}
+#sub .text button{
+    top: 8px;
+    background-color: #2175a0;
+    padding: 15px 28px;
+    border-radius: 35px;
+    right: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
